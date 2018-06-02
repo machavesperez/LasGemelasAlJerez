@@ -1,0 +1,9 @@
+measurement
+XlsxWriter
+mysql-connector
+protobuf
+pandas
+numpy
+xlrd
+jinja2
+pdfkit

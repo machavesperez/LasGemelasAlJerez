@@ -1,0 +1,83 @@
+### Manual de instalación de calculadoraAlimentos (Linux Version 1.0.3)
+
+Nota: Si se tiene las versiones de Python 2 y 3 instaladas al mismo tiempo en la máquina deba saber que este programa se ejecuta sobre python 3 y que donde ponga "python" a secas a la hora de ejecutar comandos deberá escribir "python3".
+
+## Mapa del directorio:
+
+	scripts/
+		calculadoraAlimentos/
+			__main__.py
+			calculadora.py
+			excel.py
+		Instrucciones de instalación (Linux).txt
+		Instrucciones de instalación (Windows).txt
+		python-3.6.5-amd64.exe
+		setup.py
+ 
+## Explicación de qué hace qué, por orden de instalación:
+	0. Instrucciones de instalación (Linux.txt): UST está aquí. Fichero que describe la instalación en Linux (Ubuntu).
+	1. setup.py: script python de instalación del programa "calculadoraAlimentos" escrito en python.
+	2. calculadoraAlimentos/: Directorio que contiene el código fuente del programa "calculadoraAlimentos"
+		2.1 __main__.py: Programa principal, permite toma de parámetros desde la terminal y gestiona el resto de módulos.
+		2.2 calculadora.py: Programa que contiene la llamada a la base de datos para recabar datos de eventos, menus y recetas y acumular productos y bebidas.
+		2.3 excel.py: Programa que genera informes en excel.
+	
+
+## Procedimiento de instalación:
+
+1. Instalar Python 3. Ejecutar en un terminal:
+
+	$ sudo apt install python3 python3-pip
+	$ sudo pip install --upgrade pip
+
+	Ya tienes instalado Python.
+
+2. Instalar los siguientes programas dependientes para el módulo pdf:
+	# From "Using wkhtmltopdf without X server"
+	$ sudo apt install wkhtmltopdf xvfb
+	$ sudo cp wkhtmltopdf.sh /usr/bin
+	$ sudo chmod a+x /usr/bin/wkhtmltopdf.sh
+	$ sudo ln -s /usr/bin/wkhtmltopdf.sh /usr/local/bin/wkhtmltopdf
+
+3. Instalar calculadora de alimentos. 
+
+	Abrir una terminal en el directorio que contenga el archivo: "setup.py"
+
+	Introducir el comando: 
+		sudo python setup.py develop
+
+4. Para invocar comandos, desde una terminal, llamar al sistema:
+	
+	python -m calculadoraAlimentos <nombrefuncion> <id>
+
+	<nombrefuncion>		funcion valida del módulo
+		listaCompraEvento
+		listaCompraMenu
+		listaCompraReceta
+		beneficioEvento
+		beneficioMenu
+		beneficioRecea
+
+	<id> 				id del Evento, Menu o Receta, según <nombrefuncion>
+
+	Ejemplo:
+
+		<< Devolver todos los suministros necesarios para la realización del evento número 3 >> 
+		python calculadoraAlimentos listaCompraEvento 3
+
+		Resultado de listacompraevento(3)
+		{'bebidas': {'4': Unidad(uds=15.0), '5': Unidad(uds=15.0), '8': Unidad(uds=200.0)}, 'productos': {'1': Unidad(unidad=100.0), '2': Peso(g=30000.0)}, 'materiales': {}, 'trabajadores': {'1': Unidad(uds=10.0), '6': Unidad(uds=8.0), '7': Unidad(uds=12.0), '8': Unidad(uds=10.0)}}
+
+		Actualmente se trata de un json con todos los datos que se usaran para imprimirlos en archivos xlsx y pdf en modulos posteriores
+
+
+5. Para instalar una nueva versión de la calculadora, volver a ejecutar en una terminal:
+
+	python setup.py develop
+
+6. Para desinstalar la calculadora, ejecutar en una terminal:
+
+	pip uninstall calculadoraAlimentos -y
+
+
+	

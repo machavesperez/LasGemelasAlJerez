@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Noticias</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Noticias</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/LasGemelas/Gestion</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.panel.panel-purple &gt; a &gt; div.panel-footer &gt; span.pull-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Añadir</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=titulo</td>
+	<td>Prueba1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=evento</td>
+	<td>label=Boda de Maria la piedra</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=descripcion</td>
+	<td>Esto es una prueba</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contenido</td>
+	<td>Esto es una prueba</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userfile</td>
+	<td>F:\Users\jirac\Pictures\avatar724952_1.jpg</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div[2]/div/form/div[5]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[3]/div/div/table/tbody/tr[4]/td[9]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=descripcion</td>
+	<td>Esto es una prueba2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=contenido</td>
+	<td>Esto es una prueba2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div[2]/div/form/div[5]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[3]/div/div/table/tbody/tr[4]/td[7]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userFiles[]</td>
+	<td>F:\Users\jirac\Pictures\2.png</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=fileSubmit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>¿Realmente desea eliminarla?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>La imagen ha sido eliminada.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Atrás</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[3]/div/div/table/tbody/tr[4]/td[8]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Añadir</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nota</td>
+	<td>Prueba</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=comentario</td>
+	<td>jajaja saludos</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=agradecimiento</td>
+	<td>jajaja saludos</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/form/div[4]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span.glyphicon.glyphicon-pencil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=comentario</td>
+	<td>jajaja saludo</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div/div/form/div[4]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.glyphicon.glyphicon-remove</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>¿Realmente desea eliminarlo?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>El agradecimiento ha sido eliminado.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Atrás</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='page-wrapper']/div[3]/div/div/table/tbody/tr[4]/td[10]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>¿Realmente desea eliminarla?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>La noticia ha sido eliminada.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Panel de administración</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

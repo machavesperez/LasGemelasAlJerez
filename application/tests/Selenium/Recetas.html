@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>Recetas</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Recetas</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/LasGemelas/Gestion</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.panel.panel-yellow &gt; a &gt; div.panel-footer &gt; span.pull-left</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Añadir</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userfile</td>
+	<td>F:\Users\jirac\Pictures\385Jirachi.png</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nombre</td>
+	<td>Prueba1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=descripcion</td>
+	<td>Esto es una prueba</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nota</td>
+	<td>Prueba uno</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=comensales</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=tiempo</td>
+	<td>888</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=precio</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=valoracion</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=inst[]</td>
+	<td>Probando</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=prod[0][id]</td>
+	<td>label=Aceite de Oliva - l</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=prod[0][cant]</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=prod[0][unit]</td>
+	<td>label=Litro</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div[2]/form/div/div[10]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Modificar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=prod[0][unit]</td>
+	<td>label=Decigramo</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=btnAddInst</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=#input2 &gt; input[name=&quot;inst[]&quot;]</td>
+	<td>Probando v2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div[2]/form/div/div[11]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=prod[0][unit]</td>
+	<td>label=Centilitro</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//div[@id='page-wrapper']/div[2]/div/div/div[2]/div[3]/form/div/div[11]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Atrás</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Prueba1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Eliminar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>¿Realmente desea eliminar esta receta?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertAlert</td>
+	<td>La receta será eliminada.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Panel de administración</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

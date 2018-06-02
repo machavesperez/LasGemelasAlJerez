@@ -1,0 +1,7 @@
+setup.py
+calculadoraAlimentos.egg-info/PKG-INFO
+calculadoraAlimentos.egg-info/SOURCES.txt
+calculadoraAlimentos.egg-info/dependency_links.txt
+calculadoraAlimentos.egg-info/not-zip-safe
+calculadoraAlimentos.egg-info/requires.txt
+calculadoraAlimentos.egg-info/top_level.txt

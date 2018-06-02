@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{ font-family: 'Open Sans', sans-serif;}
+	body{ margin:0px auto;}	
+	.cabecera{ height: 75px; width: 100%; background-color:#000000; margin-top: 3px;}
+	.cabecera2{ height: 50px; width: 100%; background-color: #333333; }
+	.banda_blanca{ height: 45px; width:100%; background-color: #ffffff;}
+	.content_gris{ width: 100%; background-color: #f3f3f3; }
+	.centro{ width:1050px; margin:0px auto;}
+	.logo{ padding-top: 12px; float: left;}
+	.idioma{ border-right:1px solid #ffffff; height: 60px; margin-top: 8px; float:right;}
+	.idioma select{ background-color:#000000; border:1px solid #ffffff; border-radius:0px;  width: 50px; height: 30px; color: #ffffff; font-weight: bold; margin-top: 15px; }
+	.idioma img{ padding-right: 10px; position: relative; top: 6px;}
+	.cuenta{border-right:1px solid #ffffff; border-left:1px solid #ffffff;height:50px; margin-top:8px; float: right; margin-right: 20px; color: #ffffff; font-weight: bold; font-size:14px; padding-right: 20px; padding-left: 10px; padding-top: 10px;}
+	.cuenta img{ padding-right: 10px;  position:relative; top: 8px;  }
+	.txt_cab2{ font-size: 14px; color: #ffffff; font-weight: bold; text-align: right; padding-top: 20px;}
+	.content_gris1{ float: left; width:50%;}
+	.content_gris2{ float: left; width:50%;}
+	.tit_gris{ font-size:30px; color: #333333; font-weight: bold; padding-top: 30px; padding-bottom: 10px;}
+	.subtit_gris{ font-size: 18px; color: #333333; font-weight: bold; text-align: justify; padding-right: 30px; padding-bottom: 10px;}
+	.txt_gris{ font-size: 16px; color: #333333; font-weight: normal; text-align: justify; padding-right: 30px; padding-bottom: 50px;}
+	.tit_pvo{ font-size: 30px; color: #333333; font-weight: normal; text-align: left; padding-left: 50px; padding-top: 100px;}
+	.subtit_pvo{ font-size: 21px; color: #a1a4a4; font-weight: normal; text-align: left; padding-left: 50px;}
+	.acceso_pvo{ margin-top: 20px; padding-left: 80px;}
+	.acceso_pvo input{ width:260px; height: 33px; background-color: #ffffff; border: 0px; margin-top: 15px; font-size: 13px;  padding-left: 10px; background-image: url(img/flecha_input.png); background-position: right; background-repeat: no-repeat;}
+	.olvido_pass a{ font-size: 12px; color: #314be7; text-decoration: underline; padding-left: 70px;  display: block; padding-top: 20px;}
+	.acceso_pvo button{ font-size: 18px; width:105px; height: 40px; color: #ffffff; background-color: #000000; border:0px; margin-top: 20px; margin-left: 80px; cursor: pointer;}
+	.acceso_pvo button:hover{ background-color:#ffffff; border:1px solid #000000; color: #000000;}
+	.cab_content_blanc{ width:100%; height: 65px; background-color:#333333; font-size:30px; color:#ffffff; line-height: 65px; text-align: center; margin-top: 20px;}
+	.titular_secciones{ color:#7c7a7a; font-size: 24px; font-weight:500; margin-top: 40px;}
+	.caja_marcas{ width:235px; height: 235px; background-color:#f3f3f3; float: left; text-align: center; margin-top: 40px; margin-left: 20px;}
+	.web_caja_marcas{ font-size:14px; color:#010101; font-weight:500; padding-top: 20px;}
+	.web_caja_marcas a{ color:#010101; text-decoration: none; }
+	.web_caja_marcas a:hover{text-decoration: underline;}
+	.logo_caja_marcas{ padding-top: 20px;}
+	.bandita_caja_marcas {width:0; height:0; border-right: 20px solid  transparent; border-top: 20px solid #515151; border-left: 20px solid #515151;  border-bottom: 20px solid transparent;}
+	.caja_marcas_doble{ height:235px; width: 490px; margin-top: 40px; margin-left: 20px;background-color:#f3f3f3; float: left; text-align: center;}
+	.tit_caja_marcas_doble{ font-size: 18px; color: #333333; font-weight: 500; text-align: left; margin-left:80px; }
+	.quepuedohacer{}
+	.quepuedohacer li{ color:#a1a4a4; font-weight: normal; font-size:14px; padding-bottom: 7px; text-align: left; margin-left: 70px; list-style-image: url(img/ico_list_marcas.png);}
+	.pie{ background-color:#ffffff; width:100%; height: 50px; background-color: #f3f3f3; margin-top: 50px;}
+	.bt_pie{text-align: center;}
+	.bt_pie a{ text-decoration:none; font-size: 13px; font-weight: 600; color: #99999f; line-height: 50px; padding-right: 90px;}
+	.bt_pie a:hover{ text-decoration: underline; }
+	.marcas_comercializables{color:#333333; font-size: 16px; font-weight: 600;}
+	.marcas_comercializables img{ position:relative; top: 2px; padding-left: 10px;}
+	.marcas_comercializables p{ margin: 0px; display: inline; position: relative; top: -10px; padding-right: 50px;}
+	.tit_buscador{ font-size:18px; color: #005f9d; font-weight: 600; padding-top:30px; padding-bottom:20px;}
+	.campos_busqueda{ width:100%; padding-top: 10px; padding-bottom: 20px;}
+.campos_busqueda select{ height:30px; min-width:125px; border:1px solid #595858; margin-right: 9px; }
+.campos_busqueda input{ font-size: 13px; color:#333333; font-weight: 500; width:195px; height: 26px; background-color:#ffffff; border:1px solid #595858; border-radius:4px;position: relative; top: 1px; padding-left: 15px; background-image: url(img/ico_buscador.png); background-repeat: no-repeat;     background-position-x: 170px; background-position-y: 3px;}
+.cab_interior_content_blanc{ width:100%; height: 65px; background-color:#333333; font-size:30px; color:#ffffff; line-height: 65px; text-align: center; margin-top: 20px;}
+.data_cab_interior_content_blanc{ float: left; width:70%;}
+.data_cab_interior_content_blanc span{ margin:0px auto; display: inline; font-weight: 500; font-size: 14px; color: #ffffff; padding-right:40px; text-align: left; position: relative; top: -5px; }
+.data_cab_interior_content_blanc_2{ float: left; width:30%;}
+.data_cab_interior_content_blanc_2 button{ padding:10px; background-color:#000000; color:#ffffff; font-size: 16px; font-weight: 500; border:0px; margin-left:20px; position:relative; top: -5px; cursor: pointer; border:1px solid #000000;}
+.data_cab_interior_content_blanc_2 button:hover{ background-color: #ffffff; border:1px solid #000000; color:#000000;}
+.ant_way{ text-align:left; width: 100%; height: 40px; margin-bottom: 20px; margin-top: 10px; font-size: 14px; font-weight:600; color:#949191;}
+.productos_list{ width:100%; background-color:#ffffff; margin:0px auto; padding-left: 20px; }
+.caja_product{ width:235px; height:235px; background-color:#f3f3f3; float: left; margin-right: 10px; margin-left: 10px; margin-top: 10px; margin-bottom: 10px;}
+.caja_product_detail{width:0; height:0; border-right: 20px solid  transparent; border-top: 20px solid #515151; border-left: 20px solid #515151;  border-bottom: 20px solid transparent;}
+.img_caja_product_list{ text-align:center; position: relative; top: -15px;}
+.data_caja_product_list{ margin-top: 0px; font-size: 12px; color:#010101; font-weight: 600; text-align: center;}
+.data_caja_product_list span{ display: inline; padding-right: 10px;}
+.bt_caja_product_list{ margin-top:0px;}
+.bt_caja_product_list button{ height:25px; padding-left: 20px; padding-right: 20px; min-width:50px; background-color:#010101; color:#ffffff; border:1px solid #000000; margin-right: 0px; display: inline; float: left; margin-top: 10px; margin-left: 20px; font-size: 14px; cursor: pointer;}
+.bt_caja_product_list button img{ position:relative; top: -1px; left:-10px;} 
+.bt_caja_product_list button span{ display:inline; position: relative; top:-5px;}
+.caja_mas_vendidos{ width:490px; height:235px; background-color:#f3f3f3; float: left; margin-right: 10px; margin-left: 10px; margin-top: 10px; margin-bottom: 10px;}
+.prod_mas_vendidos{ float:left; width:50%;}
+.caja_product_detail2{width:0; height:0; border-right: 20px solid  transparent; border-top: 20px solid #f3f3f3; border-left: 20px solid #f3f3f3;  border-bottom: 20px solid transparent;}
+.tit_caja_mas_vendidos{ font-size: 18px; color: #1f86c9; font-weight: bold; position: absolute; text-align: center; padding-top: 10px;text-align: center; padding-left: 100px; z-index: 3;}
+.cuadro_comprar{ width:595px; min-height:440px; background-color:#f3f3f3;}
+.img_cuadro_comprar{ float:left; padding-top: 10px; padding-left: 0px; padding-right: 0px; width:185px;}
+.txt_cuadro_compra{ float:left; padding-top: 20px; width: 335px; padding-left: 0px; padding-right: 10px; font-size: 14px;}
+.cerrar_cuadro_compra{ float:right; padding-top: 5px; padding-right: 5px; cursor: pointer; width:40px;}
+.tit_txt_cuadro_compra{ font-size:12px; color:#010101; font-weight: 600; margin-top: 20px;}
+.data_txt_cuadro_compra{ font-size: 14px; color:#010101; font-weight:600;margin-top: 20px;}
+.data_txt_cuadro_compra span{  padding-right: 20px;}
+.elige_cant{ width:100%; margin-top: 50px;}
+.elige_cant_reg{ width:100%; border-top:1px solid #808080; padding-top: 10px; padding-bottom: 10px; }
+.seleccione_cant{ float:left; text-align: center; margin-left: 50px;}
+.resultado_cant{ float:right; font-size: 12px; color:#808080; margin-right:50px; line-height: 45px;}
+.resultado_cant span{ color:#010101; padding-left: 30px; font-weight: bold; }
+.unds_selecciones_cant{ width:140px; height: 38px; background-color:#808080; color:#ffffff; font-size: 14px; font-weight: 500; text-align: center; border:1px solid #808080;}
+.num_selecciones_cant{width:60px; height: 38px; background-color:#808080; color:#ffffff; font-size: 14px; font-weight: 500; text-align: center; border:1px solid #808080;}
+.typ_selecciones_cant{width:40px; height: 38px; background-color:#4f4f4f; color:#ffffff; font-size: 14px; font-weight: 500; text-align: center; cursor: pointer;border:1px solid #ffffff;}
+.typ_selecciones_cant:hover{ background-color:#ffffff; color:#4f4f4f; border:1px solid #4f4f4f; }
+.info_cuadro_compra{ color:#5081bd; font-size: 14px; font-weight: bold; text-align: center; width: 85%; margin:0px auto;}
+.bt_cuadro_compra{ width:100%; height: 35px; background-color: #389ec8; color:#ffffff; font-weight: bold; font-size:14px; margin-top: 50px; line-height: 35px;}
+.bt_cuadro_compra{ width:100%; height: 35px; background-color: #389ec8; color:#ffffff; font-weight: bold; font-size:14px; margin-top: 50px; line-height: 35px; text-align: center; margin-bottom: 10px; border:1px solid #389ec8; cursor: pointer;}
+.bt_cuadro_compra:hover{ background-color:#ffffff; color:#389ec8; border:1px solid #389ec8;}
+
+h1{
+
+  padding-top: 5%;
+
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}

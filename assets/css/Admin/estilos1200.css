@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1050px){
+	h1{
+
+		padding-top: 10%;
+
+	}
+	.centro{width:90%; padding-left:5%; padding-right:5%;}
+	.caja_marcas{width:215px;}
+	.caja_marcas_doble{width:685px;}
+	.bt_pie a{padding-right:30px;}
+	.marcas_comercializables p{display:block; top:0px; margin-top:10px;}
+	.banda_blanca{height:auto;}
+	.campos_busqueda select{min-width:165px; margin-bottom:5px;}
+	.campos_busqueda input{width:325px; background-position-x:300px;}
+	.cab_interior_content_blanc{height:auto;}
+	.data_cab_interior_content_blanc{width:100%;}
+	.data_cab_interior_content_blanc_2{width:100%;}
+	.data_cab_interior_content_blanc_2 button{float:right; margin-right:20px;}
+	.productos_list .centro{width:100%; padding:0px;}
+	.productos_list{padding-left:0px;}
+	.caja_product{width:340px;}
+	.bt_caja_product_list{padding-left:40px;}
+	.caja_mas_vendidos{width:700px;}
+}
+@media only screen and (max-width: 800px){
+	h1{
+
+		padding-top: 20%;
+
+	}
+	.content_gris1{width:100%;}
+	.content_gris2{width:100%;}
+	.tit_pvo{padding-top:0px; padding-left:0px;}
+	.subtit_pvo{padding-left:0px;}
+	.acceso_pvo{padding-left:0px;}
+	.acceso_pvo input{display:block;}
+	.caja_marcas{width:295px;}
+	.caja_marcas_doble{width:610px;}
+	.pie{height:100px}
+	.bt_pie a{padding-right:0px;display:block;float:left;width:210px;}
+	.caja_product{width:295px;}
+	.caja_mas_vendidos{width:610px;}
+	.data_cab_interior_content_blanc span{padding-right:20px;}
+	.campos_busqueda select{width:198px;}
+	.campos_busqueda input{width:603px; background-position-x:575px;}
+}
+@media only screen and (max-width: 700px){
+	h1{
+
+		padding-top: 30%;
+
+	}
+	.caja_marcas{width:263px;}
+	.caja_marcas_doble{width:545px;}
+	.bt_pie a{width:180px;}
+	.campos_busqueda select{width:177px;}
+	.campos_busqueda input{width:540px;background-position-x:515px;}
+	.data_cab_interior_content_blanc span{padding-left:20px;width:210px;display:block;float:left;}
+	.caja_product{ width:263px;}
+	.bt_caja_product_list{ padding-left:10px;}
+	.caja_mas_vendidos{ width:545px;}
+}
+@media only screen and (max-width: 630px){
+	h1{
+
+		padding-top: 30%;
+
+	}
+	.caja_marcas{width:250px;}
+	.caja_marcas_doble{width:520px;}
+	.marcas_comercializables img{padding-left:5px;}
+	.campos_busqueda select{width:168px;}
+	.campos_busqueda input {width:512px;background-position-x:485px;}
+	.caja_product{width:250px;}
+	.caja_mas_vendidos{width:520px;}
+}
+@media only screen and (max-width: 600px){
+	h1{
+
+		padding-top: 50%;
+
+	}
+	.logo img{width:170px;}
+	.caja_marcas{width:420px;}
+	.caja_marcas_doble{width:420px;}
+	.bt_pie a {width:150px; font-size:11px;}
+	.marcas_comercializables p{ font-size:15px;}
+	.campos_busqueda select{ width:214px;}
+	.campos_busqueda input{width:423px;background-position-x:400px;}
+	.data_cab_interior_content_blanc span{ width:180px;}
+	.caja_product{ width:440px;}
+	.bt_caja_product_list{ padding-left:90px;}
+	.caja_mas_vendidos{ width:440px;}
+	.caja_mas_vendidos{ display:none;}
+	
+	
+	.cuadro_comprar{ width:100%;}
+	.txt_cuadro_compra{ width:235px;}
+}
+@media only screen and (max-width: 500px){
+	h1{
+
+		padding-top: 50%;
+
+	}
+	.cabecera{height:auto;}
+	.logo img{width:100%;}
+	.cab_content_blanc{font-size:15px;}
+	.caja_marcas{width:100px; height: 100px; position: center; margin-top: 40px; margin-left: 20px;}
+	.caja_marcas_doble{width:280px; height:auto;}
+	.bandita_caja_marcas {width:0px; height:0px; border-right: 20px solid  transparent; border-top: 20px solid #515151; border-left: 20px solid #515151;  border-bottom: 20px solid transparent;}
+	.tit_caja_marcas_doble{margin-left:20px;}
+	.quepuedohacer{padding-left:0px;}
+	.quepuedohacer li{margin-left:47px; font-size:12px;}
+	.bt_pie a{width:100px;font-size:8px;}
+	.campos_busqueda select{width:145px;min-width:auto;}
+	.campos_busqueda input{width:286px;background-position-x:260px;}
+	.data_cab_interior_content_blanc span{width:110px; font-size:9px;}
+	.caja_product{width:300px;}
+	.bt_caja_product_list {padding-left:30px;}
+	
+	.img_cuadro_comprar{width:100%; text-align:center;}
+	.txt_cuadro_compra {width: 93%;padding-left: 5%;}
+	.cerrar_cuadro_compra{ position:absolute; right:0px;}
+	.seleccione_cant{ margin-left:20px;}
+
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
